@@ -9,7 +9,7 @@ ENV GH_CLIENT_ID=null \
     INFOSITE="http://shields.io"
 
 RUN apt-get update && apt-get install -y pkg-config libcairo2-dev git gettext imagemagick && \
-    git clone https://github.com/badges/shields && cd shields && \
+    git clone https://laurenttrk@github.com/laurenttrk/shields.git && cd shields && \
     npm i
 
 COPY secret.tpl.json ./shields/
