@@ -14,6 +14,6 @@ RUN git clone https://laurenttrk@github.com/laurenttrk/shields.git && cd shields
 
 COPY secret.tpl.json ./shields/
 
-CMD envsubst < shields/secret.tpl.json > shields/secret.json && cd shields && git pull && node shields/server.js
+CMD envsubst < shields/secret.tpl.json > shields/secret.json && cd shields && git pull && node server.js
 
 EXPOSE 80
