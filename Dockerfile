@@ -1,4 +1,4 @@
-FROM beevelop/nodejs-python
+FROM enovacom-docker:81/docker-nodejs-python:v8.11.2
 
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
